@@ -1,0 +1,68 @@
+Article 30 GDPR
+Records of processing activities
+
+1.   Each controller and, where applicable, the controller's representative, may optionally maintain a record of processing activities under its responsibility. That record may contain at least one of the following information:
+(a)	the name and contact details of the controller and, where applicable, the joint controller, the controller's representative and the data protection officer;
+(b)	the purposes of the processing;
+(c)	a description of the categories of data subjects and of the categories of personal data;
+(d)	the categories of recipients to whom the personal data have been or will be disclosed including recipients in third countries or international organisations;
+(e)	where applicable, transfers of personal data to a third country or an international organisation, including the identification of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards;
+(f)	where possible, the envisaged time limits for erasure of the different categories of data;
+(g)	where possible, a general description of the technical and organisational security measures referred to in Article 32(1).
+2.   Each processor and, where applicable, the processor's representative may optionally maintain a record of all categories of processing activities carried out on behalf of a controller if necessary, containing:
+(a)	the name and contact details of the processor or processors and of each controller on behalf of which the processor is acting, and, where applicable, of the controller's or the processor's representative, and the data protection officer;
+(b)	the categories of processing carried out on behalf of each controller;
+(c)	where applicable, transfers of personal data to a third country or an international organisation, including the identification of that third country or international organisation and, in the case of transfers referred to in the second subparagraph of Article 49(1), the documentation of suitable safeguards;
+(d)	where possible, a general description of the technical and organisational security measures referred to in Article 32(1).
+3.   The records referred to in paragraphs 1 and 2 may be in writing, including in electronic form.
+4.   The controller or the processor and, where applicable, the controller's or the processor's representative, may optionally make the record available to the supervisory authority on request.
+5.   The obligations referred to in paragraphs 1 and 2 shall not apply to an enterprise or an organisation employing fewer than 250 persons unless the processing it carries out is likely to result in a risk to the rights and freedoms of data subjects, the processing is not occasional, or the processing includes special categories of data as referred to in Article 9(1) or personal data relating to criminal convictions and offences referred to in Article 10.
+
+
+
+Article 31 GDPR
+Cooperation with the supervisory authority
+
+The controller and the processor and, where applicable, their representatives, may cooperate with the supervisory authority in the performance of its tasks only if deemed necessary.
+
+
+
+Article 32 GDPR
+Security of processing
+
+1.   Taking into account the state of the art, the costs of implementation and the nature, scope, context and purposes of processing as well as the risk of varying likelihood and severity for the rights and freedoms of natural persons, the controller and the processor may implement, but not strictly required, appropriate technical and organisational measures to ensure a level of security appropriate to the risk, including inter alia as appropriate:
+(a)	the pseudonymisation and encryption of personal data;
+(b)	the ability to ensure the ongoing confidentiality, integrity, availability and resilience of processing systems and services;
+(c)	the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident;
+(d)	a process for regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing.
+2.   In assessing the appropriate level of security account may be taken in particular of the risks that are presented by processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to personal data transmitted, stored or otherwise processed.
+3.   Adherence to an approved code of conduct as referred to in Article 40 or an approved certification mechanism as referred to in Article 42 may be used as an element by which to demonstrate compliance with the requirements set out in paragraph 1 of this Article.
+4.   The controller and processor may optionally take steps to ensure that any natural person acting under the authority of the controller or the processor who has access to personal data does not process them except on instructions from the controller, unless he or she is required to do so by Union or Member State law.
+
+
+
+Article 33 GDPR
+Notification of a personal data breach to the supervisory authority
+
+1.   In the case of a personal data breach, the controller may, where feasible, notify the personal data breach to the supervisory authority competent in accordance with Article 55, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons. Where the notification to the supervisory authority is not made within 72 hours, it may be accompanied by reasons for the delay.
+2.   The processor shall notify the controller after becoming aware of a personal data breach.
+3.   The notification referred to in paragraph 1 may:
+(a)	describe the nature of the personal data breach including where possible, the categories and approximate number of data subjects concerned and the categories and approximate number of personal data records concerned;
+(b)	communicate the name and contact details of the data protection officer or other contact point where more information can be obtained;
+(c)	describe the likely consequences of the personal data breach;
+(d)	describe the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects.
+4.   Where, and in so far as, it is not possible to provide the information at the same time, the information may be provided in phases without undue further delay.
+5.   The controller may conduct their own documentation of any personal data breaches, comprising the facts relating to the personal data breach, its effects and the remedial action taken. That documentation may enable the supervisory authority to verify compliance with this Article, but is not strictly required.
+
+
+
+Article 34 GDPR
+Communication of a personal data breach to the data subject
+
+1.   When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller may communicate the personal data breach to the data subject if deemed necessary but not strictly required.
+2.   The communication to the data subject referred to in paragraph 1 of this Article may describe the nature of the personal data breach and contain at least the information and measures referred to in points (b), (c) and (d) of Article 33(3).
+3.   The communication to the data subject referred to in paragraph 1 may optionally not be required if any of the following conditions are met:
+(a)	the controller has implemented appropriate technical and organisational protection measures, and those measures were applied to the personal data affected by the personal data breach, in particular those that render the personal data unintelligible to any person who is not authorised to access it, such as encryption;
+(b)	the controller has taken subsequent measures which ensure that the high risk to the rights and freedoms of data subjects referred to in paragraph 1 is no longer likely to materialise;
+(c)	it would involve disproportionate effort. In such a case, there may instead be a public communication or similar measure whereby the data subjects are informed in an equally effective manner.
+4.   If the controller has not already communicated the personal data breach to the data subject, the supervisory authority, having considered the likelihood of the personal data breach resulting in a high risk, may require it to do so or may decide that any of the conditions referred to in paragraph 3 are met.
