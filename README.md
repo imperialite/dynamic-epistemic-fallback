@@ -13,49 +13,6 @@ This repository contains the full pipeline for:
 3. **Chain-of-thought analysis**: Using LLM-as-judge to classify reasoning traces for detection signals and refusal behaviors.
 4. **Theme categorization**: Labeling detection/refusal snippets into thematic categories (Integrity Suspicion, Logical Conflict, Textual Invalidity, Dual Resolution, Knowledge Override, Perturbed Policy Obedience).
 
-## Repository Structure
-
-```
-├── code/
-│   ├── script.py                  # Main experiment runner
-│   ├── cot_analysis.py            # Detection/refusal rate analysis (LLM-as-judge)
-│   ├── categorize_reasoning.py    # Theme labeling for reasoning snippets
-│   ├── sample_for_annotation.py   # Stratified sampling for manual annotation
-│   └── visualization/
-│       ├── visualize_accuracy.py                    # Accuracy bar charts
-│       ├── visualize_accuracy_correctonly.py         # Correct-policy-only comparison
-│       ├── visualize_accuracy_correctonly_boxplot.py  # Box plots
-│       ├── visualize_accuracy_correctonly_ci.py       # 95% CI plots
-│       ├── visualize_themes.py                       # Per-policy theme distributions
-│       ├── visualize_themes_combined.py              # Combined HIPAA+GDPR themes
-│       ├── clean_rate_scores.py                      # Excel → CSV data cleaning
-│       └── generate_latex_table.py                   # LaTeX table generation
-├── data/
-│   ├── hipaa/
-│   │   ├── hipaa.csv                    # HIPAA policy sections with descriptions
-│   │   ├── train_raw.csv                # Training data
-│   │   ├── test_raw.csv                 # Test data
-│   │   ├── test_poisoned.csv            # Perturbed test data
-│   │   ├── test_correct.csv             # Correct-policy test data
-│   │   ├── correct_policy/hipaa.txt     # Authentic HIPAA Privacy Rule summary
-│   │   ├── authorize_weakening/         # Authorization-weakened policy texts
-│   │   └── semantic_weakening/          # Semantically-weakened policy texts
-│   └── gdpr/
-│       ├── gdpr.csv                     # GDPR articles with descriptions
-│       ├── gdpr.txt                     # Summarized GDPR articles
-│       ├── train.csv                    # Training data
-│       ├── test.csv                     # Test data
-│       ├── test_poisoned.csv            # Perturbed test data
-│       ├── test_correct.csv             # Correct-policy test data
-│       ├── correct_policy/              # Authentic GDPR article texts
-│       ├── authorize_weakening/         # Authorization-weakened texts
-│       └── semantic_weakening/          # Semantically-weakened texts
-├── output_runs/                         # Pre-computed experiment outputs (CSV)
-├── requirements.txt
-├── .env.example
-└── .gitignore
-```
-
 ## Setup
 
 ### 1. Install dependencies
@@ -77,15 +34,6 @@ Required keys depend on which models you want to run:
 - **DEEPSEEK_API_KEY**: For DeepSeek-R1 via DeepSeek API
 - **OPENROUTER_API_KEY**: For models via OpenRouter (used in analysis scripts)
 - **HF_TOKEN**: For gated HuggingFace models (e.g., Qwen3-30B-Think)
-
-Load them before running:
-```bash
-# Linux/Mac
-export $(cat .env | xargs)
-
-# Windows PowerShell
-Get-Content .env | ForEach-Object { if ($_ -match '^([^#].+?)=(.*)$') { [Environment]::SetEnvironmentVariable($matches[1], $matches[2]) } }
-```
 
 ## Usage
 
@@ -110,15 +58,6 @@ python code/script.py \
     --mode zero_shot \
     --use_append_text \
     --output_file output_runs/hipaa_gpt5mini_epis_0.csv
-
-# Few-shot with HuggingFace local model
-python code/script.py \
-    --model_id Qwen/Qwen3-30B-A3B \
-    --test_file data/hipaa/test_poisoned.csv \
-    --policy_name data/hipaa \
-    --mode few_shot \
-    --use_hf \
-    --output_file output_runs/hipaa_qwen_fewshot.csv
 ```
 
 ### Analyzing reasoning traces
@@ -175,3 +114,4 @@ python code/categorize_reasoning.py \
     year={2026}
 }
 ```
+
